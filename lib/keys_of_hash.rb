@@ -5,7 +5,7 @@ class Hash
     # code goes here
     array = []
     
-    if arg == nil
+    if arg == 0
     self.each do |key, value|  
       array << key if value == arguments
     else
