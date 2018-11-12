@@ -8,13 +8,14 @@ class Hash
       if value == arguments
         array << key
       end
-    end  
-    
-  　arg.each do |animal, country|
+     arg.each do |animal, country|
   　 if country == arguments && country == arg
   　    array << animal
   　 end
     end
+    end  
+    
+  　
     array
   end
 end
