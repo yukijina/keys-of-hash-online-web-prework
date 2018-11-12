@@ -10,7 +10,7 @@ class Hash
       end
      arg.each do |animal, country|
   　 if country == arguments && country == arg
-  　    array << animal
+  　    array << key
   　 end
     end
     end  
