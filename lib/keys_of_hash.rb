@@ -16,7 +16,7 @@ class Hash
   　     binding.pry
   　   end
      end
-   end
+   
     end
     array
   end
