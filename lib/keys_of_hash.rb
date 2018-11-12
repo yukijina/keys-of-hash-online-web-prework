@@ -7,9 +7,7 @@ class Hash
     
     if arg == nil
     self.each do |key, value|  
-      if value == arguments
-        array << key
-      end
+      array << key if value == arguments
     end
   
     else
@@ -18,6 +16,7 @@ class Hash
   　     array << key
   　   end
      end
+     
     end
     array
   end
