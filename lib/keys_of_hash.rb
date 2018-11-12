@@ -12,6 +12,7 @@ class Hash
      arg.each do |animal, country|
   　   if country == arguments && country == arg
   　     array << key
+  　     binding.pry
   　   end
      end
    end
