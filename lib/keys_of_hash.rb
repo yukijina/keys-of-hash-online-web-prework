@@ -9,13 +9,11 @@ class Hash
         array << key
       end
      arg.each do |animal, country|
-  　 if country == arguments && country == arg
-  　    array << key
-  　 end
+  　   if country == arguments && country == arg
+  　     array << key
+  　   end
+     end
     end
-    end  
-    
-  　
     array
   end
 end
