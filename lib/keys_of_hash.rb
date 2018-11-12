@@ -14,7 +14,7 @@ class Hash
     else
      arg.each do |a|
       self.each do |key, value|  
-        if value == a  && value == arguments
+        if value == a  || value == arguments
           array << key 
   　     end
       end
