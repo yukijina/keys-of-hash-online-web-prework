@@ -8,6 +8,7 @@ class Hash
     if arg == nil
     self.each do |key, value|  
       array << key if value == arguments
+    
     else
      arg.each do |animal, country|
   　   if country == arguments && country == arg
