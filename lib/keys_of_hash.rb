@@ -7,7 +7,9 @@ class Hash
     
     if arg.length == nil
     self.each do |key, value|  
-      array << key if value == arguments
+      if value == arguments
+        array << key
+      end
     end
     else
      arg.each do |a|
