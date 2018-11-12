@@ -12,13 +12,11 @@ class Hash
     else
      arg.each do |a|
       self.each do |key, value|  
-      array << key if value == arguments
-  　   if country == arguments && country == arg
-  　     array << key
-  　     binding.pry
-  　   end
+        if value == a  && value == arguments
+          array << key 
+  　     end
+      end
      end
-   
     end
     array
   end
