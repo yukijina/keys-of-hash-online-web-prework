@@ -20,7 +20,7 @@ class Hash
         arg.each do |a|
           if value == arguments || value == a 
             array << key 
-  　       end
+          end
         end
       end
     end
