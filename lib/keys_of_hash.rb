@@ -19,6 +19,7 @@ class Hash
         arg.each do |a|
           if value == arguments || value == a 
             array << key 
+            binding.pry
   　       end
         end
       end
