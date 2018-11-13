@@ -6,21 +6,21 @@ class Hash
     array = []
     
     if arg.length == 0
-    self.each do |key, value|  
-      if value == arguments
-        array << key
+      self.each do |key, value|  
+        if value == arguments
+          array << key
+        end
       end
-    end
     else
      
-    self.each do |key, value|
-      arg.each do |a|
-        if value == a  || value == arguments
-          array << key 
-  　     end
+      self.each do |key, value|
+        arg.each do |a|
+          if value == a  || value == arguments
+            array << key 
+  　       end
+        end
       end
-     end
     end
-    array
+      array
   end
 end
