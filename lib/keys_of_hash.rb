@@ -12,8 +12,9 @@ class Hash
       end
     end
     else
-     arg.each do |a|
-      self.each do |key, value|  
+     
+    self.each do |key, value|
+      arg.each do |a|
         if value == a  || value == arguments
           array << key 
   　     end
