@@ -20,7 +20,7 @@ class Hash
   　     end
       end
      end
-    
+    end
     array
   end
 end
