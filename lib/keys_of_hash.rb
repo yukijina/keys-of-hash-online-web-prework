@@ -6,11 +6,13 @@ class Hash
     array = []
     
     if arg.length == 0
+      
       self.each do |key, value|  
         if value == arguments
           array << key
         end
       end
+      
     else
      
       self.each do |key, value|
